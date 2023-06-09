@@ -1,10 +1,10 @@
 import sys
 import subprocess
 
-from excel_create import *
+from excel_create import ExcelCreate
 from PySide2.QtWidgets import *
 
-from ui import CreateExcelView
+from excel_create_view import CreateExcelView
 
 
 class CreateExcelController(CreateExcelView):
